@@ -1,0 +1,26 @@
+img {
+  max-width: 60%;
+  height:90rem;
+  border: 3px solid #457e5e;
+  display: block;
+  margin-left: 25%;
+}
+
+.link-button {
+  background-color: #457e5e;
+  color: white;
+  border: 1px solid #457e5e;
+  margin-top: 1.0rem;
+  margin-left: 47%;
+  margin-bottom: 1.5rem;
+  padding: 0.9375rem 1.875rem;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 200;
+  cursor: pointer;
+  border-radius: 30px;
+}
+.link-button:hover {
+  background-color: #457e5e;
+  border: 1px solid #7ab0a3;
+}

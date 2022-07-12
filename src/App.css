@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  padding: 50px;
+   transition: transform .2s; /* Animation */
+  width: 500px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+.App-logo:hover {
+  transform: scale(1.5);
+}
+
+
+.App-header {
+  background-color: #aad0c6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+
