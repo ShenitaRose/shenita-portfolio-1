@@ -2,24 +2,41 @@
 import "./Navigation.css";
 
 function Navigation() {
+  function contactForm() {
+    window.location.href = "/contactform";
+  }
   return (
-    <header>
-      <h3>Shenita Rose</h3>
-      <nav>
+    <header className="pt-6">
+      <h3>
+        <a href="/home" className="text-3xl font-bold">
+          Shenita Rose
+        </a>
+      </h3>
+      <nav className="hidden lg:block ">
         <ul class="nav_links">
           <li>
-            <a href="#">Resume</a>
+            <a href="/resume">Resume</a>
           </li>
           <li>
             <a href="/about">About</a>
           </li>
           <li>
-            <a href="#">Work</a>
+            <a href="/work">Work</a>
           </li>
         </ul>
       </nav>
-      <a className="cta" href="#">
-        <button>Contact</button>
+      <div className="block lg:hidden">
+        <button class="bg-emerald-600 hover:bg-emerald-600 text-white font-bold py-2 px-4 rounded-full">
+          Menu
+        </button>
+      </div>
+      <a className="cta hidden lg:block" href="#">
+        <button
+          onClick={contactForm}
+          class="bg-emerald-600 hover:bg-emerald-600 text-white font-bold py-2 px-4 rounded-full"
+        >
+          Contact
+        </button>
       </a>
     </header>
   );

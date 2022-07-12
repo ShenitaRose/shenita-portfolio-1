@@ -4,6 +4,7 @@ import Landing from "./Landing";
 import Home from "./Home";
 import About from "./About";
 import Resume from "./Resume";
+import Work from "./Work";
 import { useEffect } from "react";
 import ContactForm from "./ContactForm";
 import { Routes, Route, Link } from "react-router-dom";
@@ -32,6 +33,7 @@ function App() {
       <Route path="/about" element={<About />} />
       <Route path="/resume" element={<Resume />} />
       <Route path="/contactform" element={<ContactForm />} />
+      <Route path="/work" element={<Work />} />
     </Routes>
   );
 }

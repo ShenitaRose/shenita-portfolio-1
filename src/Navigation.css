@@ -64,6 +64,10 @@ nav_links li {
   color: #7ab0a3;
 }
 
+h3 a:hover {
+  color: #7ab0a3;
+}
+
 button {
   padding: 9px 25px;
   background-color: rgba(205, 212, 203, 1);
