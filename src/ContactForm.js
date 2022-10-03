@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import Navigation from "./Navigation";
 import "./Navigation.css";
-import './ContactForm.css';
+import "./ContactForm.css";
 
-const FORM_ENDPOINT = "https://public.herotofu.com/v1/54bfb540-01e2-11ed-bc36-e1ea9ccadd33";
-
+const FORM_ENDPOINT =
+  "https://public.herotofu.com/v1/54bfb540-01e2-11ed-bc36-e1ea9ccadd33";
 
 const ContactForm = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -61,7 +61,7 @@ const ContactForm = () => {
         </div>
         <div className="mb-3 pt-0 button-one">
           <button
-            className="object-center bg-emerald-600  text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 "
+            className="object-center bg-emerald-800  text-white active:bg-emerald-800 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150 "
             type="submit"
           >
             Send a message

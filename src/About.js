@@ -11,7 +11,7 @@ function About() {
         <img
           src="./images/about.jpg"
           alt="Shenita"
-          className="w-full md:w-96 h-80 border-4 border-emerald-600 object-cover m-12"
+          className="w-full md:w-96 h-80 border-4 border-emerald-800 object-cover m-12"
         ></img>
         <p className="pl-6 pr-6 flex-initial w-full lg:w-1/2 m-12">
           Hello World! I'm Shenita Rose, a Front-End Web Developer based in

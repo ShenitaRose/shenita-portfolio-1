@@ -1,7 +1,6 @@
 .link-button {
-  background-color: #457e5e;
+  
   color: white;
-  border: 1px solid #457e5e;
   margin-top: 1rem;
   margin-left: 47%;
   margin-bottom: 1.5rem;
@@ -13,6 +12,6 @@
   border-radius: 30px;
 }
 .link-button:hover {
-  background-color: #457e5e;
+  background-color: #047857;
   border: 1px solid #7ab0a3;
 }

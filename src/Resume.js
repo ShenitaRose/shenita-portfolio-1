@@ -14,10 +14,14 @@ function Resume() {
         <img
           src="./images/Resume.jpg"
           alt="Shenita's Resume"
-          className="w-5/6 border-4 border-emerald-600 "
+          className="w-5/6 border-4 border-emerald-800 "
         ></img>
       </div>
-      <button type="button" className="link-button" onClick={showResume}>
+      <button
+        type="button"
+        className="link-button bg-emerald-800"
+        onClick={showResume}
+      >
         Download PDF
       </button>
     </div>

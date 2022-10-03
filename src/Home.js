@@ -18,7 +18,11 @@ function Home() {
             A Front-End Developer passionate about creating interactive
             applications and experiences on the web
           </p>
-          <button type="button" className="hero-button" onClick={showResume}>
+          <button
+            type="button"
+            className="hero-button bg-emerald-800"
+            onClick={showResume}
+          >
             Resume
           </button>
         </div>

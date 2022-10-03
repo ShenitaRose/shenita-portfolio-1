@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+
 function Landing() {
   function navigateHome() {
     window.location.href = "/home";
